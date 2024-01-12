@@ -2,7 +2,7 @@ import numpy as np
 
 
 class BinaryLogisticClassification:
-    def __init__(self, max_step=10000, batch_size=128, lr=1e-1):
+    def __init__(self, max_step=500000, batch_size=256, lr=1e-1):
         self.params = None
         self.max_step = max_step
         self.batch_size = batch_size
